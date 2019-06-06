@@ -1,0 +1,28 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  color:turquoise;
+  font-family: 'Amatic SC', cursive;
+  font-size: 100px
+
+
+}
+
+section {
+  justify-content: space-around;
+  margin-left: 100px;
+}
+img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+body {
+  background: teal
+}
+
+@media screen and (max-width: 900px) {
+    background: red;
+  }
+}
